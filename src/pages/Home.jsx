@@ -20,9 +20,9 @@ function Home({ isLoading, items, searchValue, setSearchValue, onChangeSearhcInp
       <div className="d-flex align-center justify-between mb-40">
         <h1>{searchValue ? `Поиск по запросу: "${searchValue}"` : 'Все кроссовки'}</h1>
         <div className="search-block d-flex">
-          <img src="/img/search.svg" alt="search" />
+          <img src="img/search.svg" alt="search" />
           {searchValue && (
-            <img onClick={() => setSearchValue('')} className="clear cu-p" src="/img/btn-remove.svg" alt="clear" />
+            <img onClick={() => setSearchValue('')} className="clear cu-p" src="img/btn-remove.svg" alt="clear" />
           )}
           <input onChange={onChangeSearhcInput} value={searchValue} type="text" placeholder="Поиск..." />
         </div>
