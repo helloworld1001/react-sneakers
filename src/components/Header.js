@@ -22,12 +22,12 @@ function Header(props) {
             <span>{totalPrice} руб.</span>
           </li>
           <li className="mr-20 cu-p">
-            <Link to="favorites">
+            <Link to="/favorites">
               <img width={18} height={18} src="img/heart.svg" alt="bookmarks" />
             </Link>
           </li>
           <li>
-            <Link to="orders">
+            <Link to="/orders">
               <img width={18} height={18} src="img/user.svg" alt="orders" />
             </Link>
           </li>
